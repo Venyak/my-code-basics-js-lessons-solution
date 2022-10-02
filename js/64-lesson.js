@@ -4,12 +4,12 @@
 
 const multiplyNumbersFromRange = (start, finish) => {
   let i = start;
-  let sum = 1;
+  let result = 1;
 
   while (i <= finish) {
-    sum = sum * i;
+    result = result * i;
     i++;
   }
 
-  return sum;
+  return result;
 };
